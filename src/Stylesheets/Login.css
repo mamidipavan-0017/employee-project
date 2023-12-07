@@ -1,0 +1,59 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    height:100vh;
+    width:100vw;
+}
+.login-a {
+ display: flex;
+ flex:1;
+ flex-direction: column;
+}
+.login-b {
+    background-image: url('/Users/ecorfyinc/Desktop/employee-project/public/Img/pexels-fauxels.jpeg'); /* Replace with the path to your image */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    display: flex;
+    flex:2;
+}
+.login-a1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.5vh;
+}
+.login-a2 {
+    line-height: 5vh;
+    margin-left: 5%;
+}
+.inputStyle {
+    width: 28vw;
+    height: 4vh;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: grey;
+}
+.inputStyle::placeholder {
+    color: grey; /* Change the color to your desired placeholder color */
+    font-size: 2vh;
+  }
+.btn {
+    background-color: #0062ff;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 28.5vw;
+    height: 6vh;
+    padding: 5px;
+  }
+.abc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab {
+    display: flex;
+    justify-content: center;
+}
